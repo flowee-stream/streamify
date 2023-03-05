@@ -1,0 +1,24 @@
+{
+  "name": "streamify",
+  "version": "1.0.0",
+  "description": "Streaming server based on node-media-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flowee-stream/streamify.git"
+  },
+  "author": "myst",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flowee-stream/streamify/issues"
+  },
+  "homepage": "https://github.com/flowee-stream/streamify#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.1.0",
+    "node-media-server": "^2.4.9"
+  }
+}
